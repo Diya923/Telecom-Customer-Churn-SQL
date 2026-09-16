@@ -1,10 +1,10 @@
-#**Telecom Customer Churn Analysis Using SQL**
+# **Telecom Customer Churn Analysis Using SQL**
 
-##**Project Overview**
+## **Project Overview**
 
 This project analyzes customer churn for a telecommunications company using SQL and MySQL. The objective is to identify customer churn patterns, revenue loss, customer segments, and factors associated with customer churn.
 
-##**Dataset**
+## **Dataset**
 
 The dataset used in this project is the Telco Customer Churn dataset, obtained from Kaggle.
 
@@ -12,11 +12,11 @@ The dataset contains customer information related to demographics, services, bil
 
 **Source:** Kaggle – Telco Customer Churn Dataset
 
-##**Business Problem**
+## **Business Problem**
 
 A telecom company is experiencing customer churn, resulting in potential revenue loss. This analysis explores customer and service data to understand churn patterns and identify high-risk customer segments.
 
-##**Objectives**
+## **Objectives**
 
 * Calculate the overall customer churn rate
 * Analyze churn by contract type
@@ -29,13 +29,13 @@ A telecom company is experiencing customer churn, resulting in potential revenue
 * Identify high-risk customers
 * Rank contract types based on churn rate
 
-##**Database and Tools**
+## **Database and Tools**
 
 * Database: MySQL
 * Tool: MySQL Workbench
 * Language: SQL
 
-##**SQL Skills Used**
+## **SQL Skills Used**
 
 * SELECT
 * Aggregate Functions
@@ -50,7 +50,7 @@ A telecom company is experiencing customer churn, resulting in potential revenue
 * PARTITION BY
 * Business KPI calculations
 
-##**Tables Used**
+## **Tables Used**
 
 The project uses three tables:
 
@@ -60,7 +60,7 @@ The project uses three tables:
 
 These tables are connected using customerID for the required analyses.
 
-##**Project Analysis**
+## **Project Analysis**
 
 The analysis covers:
 
@@ -74,7 +74,7 @@ The analysis covers:
 8. High-risk customer identification
 9. Contract churn ranking using CTE and RANK()
 
-##**Project Files**
+## **Project Files**
 
 * telecom_churn_analysis.sql — SQL queries used for the analysis
 * 01_overall_churn.png — Overall churn analysis
@@ -83,10 +83,10 @@ The analysis covers:
 * 04_high_risk_customers.png — High-risk customer analysis
 * 05_churn_ranking.png — Contract churn ranking
 
-##**Note**
+## **Note**
 
 The original dataset contained 7,043 records. Due to import issues, 7,032 records were successfully imported into MySQL for this project.
 
-##**Learning Outcome**
+## **Learning Outcome**
 
 This project helped strengthen my SQL skills and provided practical experience in using SQL to analyze customer behavior and solve business-related analytical problems.
