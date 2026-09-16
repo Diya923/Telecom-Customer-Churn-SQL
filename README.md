@@ -1,8 +1,16 @@
-#Telecom Customer Churn Analysis Using SQL
+#**Telecom Customer Churn Analysis Using SQL**
 
 ##Project Overview
 
 This project analyzes customer churn for a telecommunications company using SQL and MySQL. The objective is to identify customer churn patterns, revenue loss, customer segments, and factors associated with customer churn.
+
+##Dataset
+
+The dataset used in this project is the Telco Customer Churn dataset, obtained from Kaggle.
+
+The dataset contains customer information related to demographics, services, billing, tenure, contract type, and churn status.
+
+**Source:** Kaggle – Telco Customer Churn Dataset
 
 ##Business Problem
 
